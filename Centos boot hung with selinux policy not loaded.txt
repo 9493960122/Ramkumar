@@ -1,0 +1,10 @@
+failed to load selinux policy.
+
+error message:
+selinux selinux not loaded
+
+effect:
+system will get freeze
+
+Solution:
+Interupt the systems boot process and add "selinux=0" to linux16 section
