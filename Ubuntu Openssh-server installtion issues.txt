@@ -1,0 +1,20 @@
+Openssh-server instaltion issues on Ubuntu
+
+
+
+
+Description:
+
+===========
+
+When I try to sudo apt-get install openssh-server I get - 
+"Package openssh-server is not available, but is referred to by another package. This may mean that the package is missing, has been obsoleted, or is only available from another source.
+E: Package openssh-server has no installation candidate.
+"
+
+Solution:
+
+========
+
+Follow this link
+::  https://askubuntu.com/questions/504836/not-able-to-configure-ssh-in-ubuntu-14-04-lts
