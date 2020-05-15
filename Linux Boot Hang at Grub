@@ -1,0 +1,17 @@
+GNU GRUB version 2.02~beta2-9ubuntu1
+
+Minimal BASH-like line editing is supported. For the first word, TAB lists possible command completions. Anywhere else TAB lists possible device or file completions.
+
+grub> _
+
+List the disk by using ls 
+
+grub> ls
+(hd0) (hd1) (hd0,msdos1)  (hd0,msdos2) (hd0,msdos3)
+
+grub> set root=(hd0,msdos2)
+grub> linux /vmlinuz-4.4.0-38-generic 
+grub> initrd /initrd.img-4.4.0-38-generic
+grub> boot
+
+Now you can troubleshoot issue with grub2.conf 
